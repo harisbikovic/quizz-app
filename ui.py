@@ -6,7 +6,7 @@ class QuizzInterface:
     def __init__(self, quiz_brain: QuizBrain):
         self.quiz = quiz_brain
         self.window = Tk()
-        self.window.title = "Quizzler"
+        self.window.title = "Quizz"
         self.window.config(bg=THEME_COLOR, padx=20, pady=20)
 
         self.score_label = Label(text="Score: 0", fg="white", bg=THEME_COLOR)
