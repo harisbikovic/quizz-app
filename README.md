@@ -1,10 +1,28 @@
 # Quizz app
 This is a Python-based quiz application that asks users a series of true/false questions and provides feedback on their answers. 
 The app is designed to be simple and easy to use, with a user-friendly interface and straightforward functionality.
-The question for the app are fetched with and API from the following page: https://opentdb.com/api_config.php.
+The question for the app are fetched using the API from the following page: _https://opentdb.com/api_config.php_.
 
-![quizz.gif](..%2F..%2FOneDrive%2FRadna%20povr%9Aina%2Fquizz.gif)
+![](https://imgur.com/z9xHYLd.gif)
 
+Once the player answers all 10 questions the game stops:
+
+![image](https://user-images.githubusercontent.com/108518278/235893700-23b0021e-168d-4447-a16e-d895847b9938.png)
+
+## Installation
+
+To install the app, follow these steps:
+
+1. Clone the repository to your local machine using the command:
+`git clone https://github.com/harisbikovic/quizz-app.git`
+
+2. Install the required dependencies using the command:
+`pip install -r requirements.txt`
+
+3. Run the app by running the main.py file using the command:
+`python main.py`
+
+## Customization
 
 I specified the parameters to use 10 questions of any category and set the type to be True/False.
 You can go to this link and customize the questions to be of any number and choose between many categories such as: Sports, History, Computer Science etc.
